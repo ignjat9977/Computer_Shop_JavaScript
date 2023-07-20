@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+$defRed: #e63946;
+$black: #000000;
+$white: #ffffff;
+$defBlue: #457b9d;
+$darkRed: #ae2012;
+$lightGrey: #d3d3d3;
+$darkBlue: #1d3557;
+
+$lightBlue: #a8dadc;
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none !important;
+}
+.ik-text-red{
+    color:$defRed;
+}
+.ik-text-red-dark{
+    color: $darkRed;
+}
+.ik-text-white{
+    color:$white !important;
+}
+.ik-text-light-grey{
+    color: $lightGrey;
+}
+.ik-text-black{
+    color:$black;
+}
+.ik-bg-dark{
+    background-color: $black;
+}
+.ik-bg-light-grey{
+    background-color: $lightGrey;
+}
+.ik-bg-light-blue{
+    background-color: $lightBlue;
+}
+.ik-bg-dark-blue{
+    background-color: $darkBlue;
+}
+body{
+    font-family: "Poppins", "san-serif";
+}
+
+header{
+    //background-color: $black;
+    transition: 1s;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 15;
+    a{
+        text-decoration: none !important;
+    }
+    .ik-logo{
+        width: 80%;
+    }
+    #ik-navigation{
+        display:none;
+    }
+    #ik-hamburger-button{
+        text-align: right !important;
+        width: 20%;
+        #ik-nav-ham{
+            border: 1px solid $defRed;
+            i{
+                color:$defRed;
+                font-size: 30px !important;
+                transition: 1s;
+            }
+            &:hover i {
+                color: $white;
+            }
+        }
+    }
+    #ik-navigation{
+
+        height: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        ul{
+            height: 100%;
+            margin-left: 0px !important;
+            li{
+                padding: 7px 0px;
+                border-top: 1px solid $defRed;
+                &:last-child{
+                    border-bottom: 1px solid $defRed;    
+                }
+                a{
+                    color:$defRed;
+                    font-size: 20px;
+                    text-decoration: none !important;
+                    
+                    &:hover{
+                        color: $black;
+                        text-decoration: underline !important;
+                        
+                    }
+                }
+            }
+            .active{
+                color:$black;
+            }
+        }
+    }
+}
+.ik-header-scroll{
+    transition: 1s;
+    background-color: $black !important;
+    .ik-header-text{
+        color:$white;
+    }
+    ul{
+        a{
+            &:hover{
+                color: $white !important;
+            }
+        }
+        .active{
+            
+            color:$white !important;
+            
+        }
+    }
+}
+#ik-heading-text{
+    background: url("../img/cover-pic.jpg");
+    height: 700px;
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 0;
+    
+}
+.ik-heading-border-1{
+    width: 100%;
+    height: 1px;
+    background-color: $defRed;
+    display:block;
+    margin: 0px auto;
+}
+.ik-heading{
+    h2{
+        font-size: 45px;
+    }
+    .ik-heading-border{
+        width: 100%;
+        height: 2px;
+        background-color: $black;
+        display:block;
+        margin: 0px auto;
+    }
+}
+.ik-card{
+    border: 2px solid $defRed !important;
+}
+.ik-rewiev li i{
+    font-size: 17px;
+    color: $defRed;
+    margin-right: 4px;
+}
+.about-me-picture{
+    border: 2px solid $defRed;
+}
+.ik-btn{
+    border: 2px solid $defRed;
+    &:hover{
+        transition: 1s;
+        color: $lightGrey;
+    }
+}
+.ik-mi-icon{
+    width: 90px;
+    height: 90px;
+    border: 3px dashed $black;
+    border-radius: 50%;
+    margin-right: 10px;
+    i{
+        font-size: 35px;
+    }
+}
+.ik-no-margin-bot{
+    margin-bottom: 0px !important;
+}
+#ik-about-ul{
+    li{
+        margin-bottom: 10px;
+        i{
+            font-size: 20px;
+            color: $defRed;
+        }
+        a{
+            color: $black !important;
+            text-decoration: none;
+        }
+    }
+}
+#ik-heading-text-1{
+    background: url("../img/cover1.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.ik-heading-sec{
+    position: relative;
+    top: 150px;
+    h2{
+        font-size: 60px;
+    }
+}
+footer{ 
+    a{
+        color: $defRed;
+        &:hover{
+            color:$white;
+        }
+    }
+    ul{
+        li{
+            a{
+                color: $white !important;
+                i{
+                    margin-right: 5px !important;
+                    color: $defRed !important;
+                }
+            }
+        }
+    }
+    #ik-footer-2{
+        border-top: 1px solid $defRed;
+    }
+}
+#slider{
+    width: 100%;
+    height:700px;
+    overflow: hidden;
+    img{
+        display: none;
+        width: 100%;
+        height: auto;
+    }
+    .slider-active{
+        display:block;
+        width: 100%;
+    }
+}
+.active-shop-btn{
+    background-color: $defRed;
+    color: $white;
+}
+.cart-quantity-input{
+    width:60px;
+}
+.cart-header{
+    color:$defRed;
+    font-size: 20px;
+}
+.ik-border{
+    border-bottom: 1px solid $defRed;
+    padding-bottom: 15px;
+}
+.ik-cart{
+    width: 200px;
+}
+.ik-bank-cards{
+    color: $white;
+}
+#about-us{
+    iframe{
+        width:100% !important;
+        height: 100% !important;
+    }
+}
+#modal{
+    position: fixed;
+    top: 15%;
+    bottom: 15%;
+    left: 10%;
+    right: 10%;
+    border: 1px solid $defRed;
+    z-index: 15;
+    background-color: $lightGrey;
+    .modal-text{
+        font-size: 23px;
+        color: $black;
+    }
+    border-radius: 10px;
+}
+.cleaner{
+    clear: both;
+}
+.ik-show{
+    display: block;
+}
+.ik-hide{
+    display: none;
+}
+#modal-shop{
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    z-index: 15;
+    background-color: $lightGrey;
+    color: white;
+    border: 1px solid $defRed;
+    padding: 10px;
+    border-radius: 10px;
+}
+.error{
+    padding: 5px 5px;
+    border: 1px solid $black;
+    background-color:$defRed;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.ik-credit-card{
+    color: $black;
+}
+.ik-alert{
+    padding: 7px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+.ddl-div{
+    width: 100%;
+}
+#contact-modal{
+    position: fixed;
+    left:25%;
+    right:25%;
+    top:20%;
+    bottom: 50%;
+    border: 1px solid $defRed;
+    border-radius: 10px;
+    z-index: 15;
+    background-color: $lightGrey;
+    h2{
+        margin-top: 100px;
+    }
+}

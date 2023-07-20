@@ -1,0 +1,195 @@
+@media screen and (max-width: 1025px){
+    header #ik-navigation{
+        display: block;
+        width: 100%;
+    }
+    header #ik-navigation{
+        display: none;
+    }
+    header #ik-hamburger-button{
+        width: 20%;
+    }
+    header .ik-logo{
+        width:80%;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    .ik-bg-white-opacity{
+        height: 500px;
+    }
+    #slider{
+        height: 500px;
+    }
+    .ik-heading-sec h2{
+        font-size: 43px;
+    }
+    #about h3{
+        font-size: 20px;
+    }
+    #about p{
+        font-size: 13px;
+    }
+    .ik-mi-text h5{
+        font-size: 14px;
+    }
+    .ik-mi-text p{
+        font-size: 12px;
+    }
+    #about-me p {
+        font-size: 15px;
+        margin-bottom: 9px;
+    }
+    #modal .modal-text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .ik-heading h2{
+        font-size: 30px;
+    }
+    .ik-heading-sec h4{
+        font-size: 20px;
+    }
+    .ik-change .ik-mi-icon{
+        order: 2;
+        margin-left: 10px;
+    }
+    .ik-change{
+        border-top: 1px solid #e63946;
+        border-bottom: 1px solid #e63946;
+        padding: 15px 0px;
+    }
+    #about-me p {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #about-me h3{
+        margin-bottom: 0px !important;
+    }
+    #ik-heading-text{
+        height: 550px;
+    }
+    #ik-heading-text-1{
+        height: 550px;
+    }
+    #modal .modal-text{
+        font-size: 16px;
+    }
+    .ik-btn-modal{
+        margin-bottom: 10px;
+    }
+
+    #modal{
+        bottom: 30%;
+    }
+    #contact-modal{
+        bottom:55%;
+    }
+    #contact-modal h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 525px){
+    header h1{
+        font-size: 20px;
+    }
+    .ik-heading-sec h2{
+        font-size: 25px;
+    }
+    .ik-heading-sec h4{
+        font-size: 17px;
+    }
+    #about-me h3{
+        margin-top: 25px;
+    }
+    #ik-footer-2 p {
+        font-size: 12px;
+    }
+    footer h5 {
+        font-size: 15px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer .footer-section{
+        margin-bottom: 20px !important;
+    }
+    footer ul li a{
+        font-size: 12px;
+    }
+    footer ul li a i {
+        font-size: 12px;
+    }
+    #slider{
+        height: 300px;
+    }
+    #ik-shop-btns li{
+        font-size: 12px;
+    }
+    #modal .modal-text{
+        font-size: 14px;
+    }
+    #modal{
+        bottom: 20%;
+    }
+    
+}
+@media screen and (max-width: 386px){
+    header h1{
+        font-size: 15px;
+    }
+    #ik-heading-text{
+        height: 400px;
+    }
+    #ik-heading-text-1{
+        height: 400px;
+    }
+    #about h3{
+        font-size: 17px;
+    }
+    #about p{
+        font-size: 11px;
+    }
+    .ik-heading h2{
+        font-size: 24px;
+    }
+    .ik-heading-sec h4{
+        font-size: 13px;
+    }
+    #table-d table tr td{
+        font-size: 12px !important;
+    }
+    #slider{
+        height: 200px;
+    }
+    #ik-shop-btns li{
+        font-size: 9px;
+    }
+    .cart-row{
+        flex-direction: column;
+    }
+    .ik-cart-header{
+        display: none !important;
+    }
+    .cart-header{
+        text-align: center;
+    }
+    .total{
+        text-align: center !important;
+    }
+    .ik-cart{
+        text-align: center;
+    }
+    .ik-cart img{
+        display: block;
+        margin: 0px auto;
+    }
+    #modal .modal-text{
+        font-size: 12px;
+    }
+    #contact-modal{
+        left:18%;
+        right:18%;
+    }
+}
